@@ -252,6 +252,7 @@ font-weight: 700;
 
 footer{
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
 margin-top: 130px;
 padding: 130px 230px;}
@@ -260,8 +261,36 @@ padding: 130px 230px;}
     color: var(--dark-01, #181818);
 text-align: center;
 font-family: Open Sans;
-font-size: 35px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+font-size: 35px;
+}
+
+.footer-col{
+    width: 50%;
+}
+.contact input[type=text],input[type=email],textarea{
+    border-radius: 5px;
+background: var(--White-Color, #FFF);
+width: 100%;
+margin-bottom: 24px;
+display: block;
+color: var(--Dark-03, #757575);
+font-size: 16px;
+padding: 18px 35px;
+border: 0;
+}
+
+.soc-links a{
+    margin-right: 24px;
+}
+.foot-des{
+    text-align: left;
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
 }
